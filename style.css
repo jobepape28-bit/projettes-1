@@ -13,8 +13,8 @@
   justify-content: space-between;
   list-style: none;
 }
-.bouton1{
-  background-color: orange;
+.bouton1 {
+  background: linear-gradient(to right, rgb(223, 91, 43), black);
 }
 
 /*TRANSFORMEZ VOTRE ENTREPRISE*/
@@ -35,7 +35,7 @@
   padding-top: 50px;
   z-index: 20;
 }
-.surligne-m{
+.surligne-m {
   background-color: black;
   color: white;
 }
@@ -55,7 +55,6 @@
 
 /*LA REALITE DU MARCHE*/
 .réalité {
-  
 }
 .laréalité {
   display: flex;
@@ -68,96 +67,94 @@
   border-radius: 10px;
 }
 
- .img-bg3 {
-   z-index: 10;
-   
-  
+.img-bg3 {
+  z-index: 10;
 }
-.imglaye{position: absolute; margin-left: 500px;
-  
-}
-
-/* .nbr{ color: orangered;} */
-
-/*ALIGNEMENT IMAGES--*/
-
-/* .parent-container{  display: flex;        }  */
-/* .img1{  width: 400px; height: 50px; margin-left: 50px;} */
-/* .img2{  width: 400px; height: 50px;  ;} */
-
-/*CE QUE CELA SIGNIFIE */
-.section-3 {
-  display: flex;
-}
-
-.img-bg4 { 
-    z-index: 20; 
- } 
-.imgbande{
+.imglaye {
   position: absolute;
-} 
-.paragraphe {
-  border: 1px solid orangered;
-  padding: 20px;
-  border-radius: 10px;
-  margin-left: 300px;
-}
-
-/*LA SOLUTION 360*/
-.ma-div-container-b {
-  display: flex;
-  background-color: orangered;
-  border-radius: 5%;
-  width: 1200px;
-  height: 300px;
-  flex-direction: column;
-  text-align: center;
-}
-.solution-b {
-  background-color: black;
-  width: 300px;
-  height: 90px;
-  color: white;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  /* padding: ; */
-}
-.programme-b {
-  background-color: orange;
-  color: white;
-  border: 0cap;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  padding-bottom: 1px;
-  padding: top 10px;
-  height: 90px;
-}
-/* .img{width: 80px; height: 100px; margin-bottom:20px;margin-left: 500px;
-
-  }*/
-.votrediagnostic {
-  background-color: white;
-  color: orangered;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  height: 80px;
-  flex-direction: column;
-  justify-content: center;
-}
-.section {
-  display: flex;
-}
-.droite {
-  flex: 1;
-}
-.img4 {
   margin-left: 500px;
 }
+
+/*CE QUE CELA SIGNIFIE */
+.section-y {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-fond {
+  position: absolute;
+  margin-top: 70px;
+  padding-top: 25px;
+}
+.img-femme {
+  z-index: 20;
+  margin-bottom: 100px;
+}
+.div-paragraphe {
+  padding-top: 100px;
+}
+.encadrement {
+  border: 1px solid orangered;
+  border-radius: 5%;
+  width: 500px;
+  height: 50px;
+  align-content: center;
+  padding-left: 10px;
+  margin-top: 1px;
+}
+
+/*LA SOLUTION DECLIC*/
+
+.solution-container {
+  background-color: orangered;
+  display: flex;
+  width: 1200px;
+  height: 300px;
+  border-radius: 6%;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ledéclic {
+  background-color: black;
+  color: white;
+  width: 500px;
+  height: 60px;
+  margin-top: 50px;
+  align-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.programme-x {
+  background-color: orange;
+  width: 500px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: white;
+}
+
+.image-a-deborder {
+  position: absolute; /* Positionnement absolu */
+  top: -50px; /* Pour sortir partiellement du conteneur par le haut */
+  /* left: 0; */
+  width: 90px; /* Ajustez selon vos besoins */
+  height: auto;
+}
+.diagnostic {
+  background-color: white;
+  border: 1px solid black;
+  color: orangered;
+  width: 200px;
+  height: 50px;
+  align-content: center;
+  text-align: center;
+}
+
 
 /*NOTRE ACCOMPAGNEMENT*/
 .accompagnement {
@@ -167,7 +164,7 @@
   justify-content: center;
 }
 .entreprise-container {
-  background-color: wheat;
+  background-color: #ffb6c1;
   gap: 20px;
   border-radius: 5%;
   width: 330px;
@@ -177,12 +174,15 @@
   color: orangered;
 }
 .équipe-container {
-  background-color: wheat;
+  background-color: lightpink;
   border-radius: 5%;
   width: 330px;
   height: 170px;
 }
 .équipe {
+  color: orangered;
+}
+.deuxan {
   color: orangered;
 }
 /*LES CHIFFRES*/
@@ -252,121 +252,164 @@
 }
 
 /*RESERVATION DIAGNOSTIC GRATUITE*/
-.diagnostic {
+
+.réservation {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  gap: 100px;
+  width: 1000px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: auto;
+  font-size: 10px;
+
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-.lecomment {
+
+.marge-bton {
+  margin-top: 10px;
+}
+.offrelimitée {
   color: orangered;
 }
-.gratuité {
-  background-color: whitesmoke;
-  border-radius: 5%;
+.valeur {
+  color: orangered;
 }
-.separateur-vertical {
-  width: 2px;
-  height: 100px;
-  background-color: gray;
+.bouton-a {
+  background: linear-gradient(to right, orangered, black);
+  width: 200pxp;
+  height: 40px;
 }
-.colonnedroite{
-  
+.lien1 {
+  color: orangered;
 }
+
 /* RENFORCEMENT PERFORMANCE */
-.section4{
-  display: flex; ;
-
-  
+.section4 {
+  display: flex;
 }
 
- .ul2{
-  
- } 
-
-.droite{
-  margin-left: 1000px; 
- padding-bottom :300px; 
+.ul2 {
 }
 
-
+.droite {
+  margin-left: 500px;
+  padding-bottom: 300px;
+}
 
 /*TEMOIN*/
-.section5{
-  display: flex; gap: 20px;
-   align-content: center;
+.section5 {
+  display: flex;
+  gap: 20px;
+  align-content: center;
+  margin-bottom: 100px;
 }
 
- .imggauche{padding-top: 50px;
-
- }
- .témoin1{
-  background-color: whitesmoke; width: 250px;
-   height: 170px;font-size: smaller; padding: 20px;
-   border-radius: 3%;
- }
- .témoin2{
-  background-color:whitesmoke; width: 250px;
-   height: 170px;font-size: smaller;padding: 20px;
-   border-radius: 3%;
- }
- .inclusion{background-color: orangered; 
-  padding: 8px; border-radius: 3%;font-size: smaller;
- }
- .témoin3{
-  background-color: whitesmoke; width: 250px;
-   height: 170px;font-size: smaller;padding: 20px;
-   border-radius: 3%;
- }
- .imgdroite{padding-top: 50px;
-
- }
- /*CONTACTEZ NOUS*/
- .container{background-color: orangered;
-  display: flex; gap: 20px;
+.imggauche {
+  padding-top: 70px;
+  margin-left: auto;
 }
-.section-a{
+.témoin1 {
+  background-color: whitesmoke;
+  width: 250px;
+  height: 170px;
+  font-size: smaller;
+  padding: 20px;
+  border-radius: 5%;
+}
+.témoin2 {
+  background-color: whitesmoke;
+  width: 250px;
+  height: 170px;
+  font-size: smaller;
+  padding: 20px;
+  border-radius: 3%;
+}
+.inclusion {
+  background-color: orangered;
+  padding: 8px;
+  border-radius: 5%;
+  font-size: smaller;
+  height: 125px;
+}
+.témoin3 {
+  background-color: whitesmoke;
+  width: 250px;
+  height: 170px;
+  font-size: smaller;
+  padding: 20px;
+  border-radius: 5%;
+}
+.imgdroite {
+  padding-top: 70px;
+  margin-right: auto;
+}
+/*CONTACTEZ NOUS*/
+.container {
+  background-color: orangered;
+  display: flex;
+  gap: 20px;
+}
+.section-a {
   color: white;
 }
-.section-b{
+.section-b {
   color: white;
 }
-.bouton{
+.bouton {
   background-color: black;
   color: white;
-  width: 150px; height: 40px;
-  margin-top: 10px; margin-left: 1px;
+  width: 176px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 1px;
   margin-bottom: 20px;
   align-content: center;
   margin-right: 100px;
 }
-.réservation{
+.réservation {
   display: flex;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   border-radius: 5%;
 }
-.ul{background-color:whitesmoke;list-style: none;
-
+.ul {
+  background-color: whitesmoke;
+  list-style: none;
 }
-.lamarche{color: orangered;
-
-}
-.surligne-nb{
+.lamarche {
   color: orangered;
 }
-.offre{color: orangered;
-
+.surligne-nb {
+  color: orangered;
 }
-.valeur{color: orangered;
-
+.offre {
+  color: orangered;
 }
-.bouton-c{background-color: orangered;
-
+.valeur {
+  color: orangered;
 }
-.img-bur{
-  padding-top: 20px; padding-left: 20px;border-radius: 10%;
+.bouton-c {
+  background-color: orangered;
 }
-.surligne-nb{
-  background-color: orangered;  color: white;
-
+.img-bur {
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10%;
+}
+.surligne-nb {
+  background-color: orangered;
+  color: white;
+}
+.contactez-nous {
+  color: white;
+  padding-top: 10px;
+}
+.section-a {
+  padding-top: 60px;
+  padding-left: 100px;
+}
+.section-b {
+  padding-top: 30px;
+  padding-right: 200px;
 }
